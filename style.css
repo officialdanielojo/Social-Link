@@ -18,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #141414ff;
+  padding-block: 40px;
   font-family: myFirstFont;
 }
 
@@ -78,10 +79,19 @@ main .social_con a {
   color: #ffff;
   text-align: center;
 }
-main .social_con a p:hover {
-  cursor: pointer;
-  background-color: #c9eb4dff;
-  color: #000;
+@media screen and(min-width: 768px) {
+  main .social_con a p:hover {
+    cursor: pointer;
+    background-color: #c9eb4dff;
+    color: #000;
+  }
+}
+@media screen and(min-width: 1440px) {
+  main .social_con a p:hover {
+    cursor: pointer;
+    background-color: #c9eb4dff;
+    color: #000;
+  }
 }
 
 main .social_con a p {
